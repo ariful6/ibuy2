@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ibuy</string>
+    <string name="log_in">Log in</string>
+    <string name="editText">Welcome to ibuy</string>
 </resources>
