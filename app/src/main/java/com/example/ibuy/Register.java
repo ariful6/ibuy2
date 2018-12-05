@@ -6,22 +6,18 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    Button button;
 
+public class Register extends AppCompatActivity {
+    Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        button = (Button) findViewById(R.id.button);
+        setContentView(R.layout.activity_register);
+        button3= (Button) findViewById(R.id.button);
     }
 
     public void gonext(View v){
-        Intent intent = new Intent(this,Register.class);
+        Intent intent = new Intent(this,BranchSelection.class);
         startActivity(intent);
     }
-
-
-
 }
