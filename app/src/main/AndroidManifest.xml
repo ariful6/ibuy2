@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
-        <activity android:name=".BranchSelection"></activity>
+        <activity android:name=".BranchSelection" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>
