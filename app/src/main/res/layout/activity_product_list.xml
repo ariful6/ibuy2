@@ -179,7 +179,7 @@
     <TextView
         android:id="@+id/textView19"
         android:layout_width="59dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="78dp"
         android:text="3.99€/kg"
         app:layout_constraintBottom_toTopOf="@+id/textView23"
@@ -242,6 +242,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintEnd_toStartOf="@+id/textView19"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
         app:srcCompat="@drawable/jasminerice" />
