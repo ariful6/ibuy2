@@ -16,7 +16,7 @@ public class ProductList extends AppCompatActivity {
     }
 
     public void goProduct(View v) {
-        Intent intent = new Intent(ProductList.this, PaymentMethod.class);
+        Intent intent = new Intent(this, PaymentMethod.class);
         startActivity(intent);
     }
 }

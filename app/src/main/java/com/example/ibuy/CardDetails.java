@@ -15,12 +15,6 @@ public class CardDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
 
-        button16 = (Button)findViewById(R.id.button16);
 
     }
-    public void gonext3 (View view){
-        Intent intent = new Intent(this, BranchSelection.class);
-        startActivity(intent);
-    }
-
 }
