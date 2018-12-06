@@ -15,4 +15,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="card">Enter your card number</string>
+    <string name="Name">Enter card holder name</string>
+    <string name="cvc">Enter the CVC code</string>
 </resources>
