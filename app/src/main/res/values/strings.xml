@@ -18,4 +18,7 @@
     <string name="card">Enter your card number</string>
     <string name="Name">Enter card holder name</string>
     <string name="cvc">Enter the CVC code</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="email">Email or Phone number</string>
+    <string name="pass">Your password</string>
 </resources>
