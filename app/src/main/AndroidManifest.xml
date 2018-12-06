@@ -22,9 +22,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
-        <activity android:name=".BranchSelection" />
+
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ProductList"></activity>
+        <activity android:name=".BranchSelection" />
+        <activity android:name=".ProductList"/>
+        <activity android:name=".PaymentMethod" />
+            <activity android:name=".CardDetails" >
+        </activity>
     </application>
 
 </manifest>

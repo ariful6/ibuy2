@@ -18,7 +18,7 @@ public class CardDetails extends AppCompatActivity {
         button16 = (Button)findViewById(R.id.button16);
 
     }
-    public void gonext3 (View view){
+    public void goCard (View view){
         Intent intent = new Intent(this, BranchSelection.class);
         startActivity(intent);
     }

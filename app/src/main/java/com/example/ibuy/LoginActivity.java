@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        button40 = (Button) findViewById(R.id.button4);
+        button40 = (Button) findViewById(R.id.button40);
     }
 
     public void gonext3(View v) {

@@ -17,8 +17,8 @@ public class PaymentMethod extends AppCompatActivity {
         button7 = (Button) findViewById(R.id.button7);
     }
 
-    public void gonext5(View v) {
-        Intent intent = new Intent(this, CardDetails.class);
+    public void gopay(View v) {
+        Intent intent = new Intent(PaymentMethod.this, CardDetails.class);
         startActivity(intent);
     }
 }
