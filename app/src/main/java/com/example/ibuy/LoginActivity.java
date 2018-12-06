@@ -8,13 +8,13 @@ import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button button4;
+    Button button40;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        button4 = (Button) findViewById(R.id.button4);
+        button40 = (Button) findViewById(R.id.button4);
     }
 
     public void gonext3(View v) {
