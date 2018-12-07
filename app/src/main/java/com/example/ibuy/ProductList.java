@@ -16,7 +16,6 @@ public class ProductList extends AppCompatActivity {
      Counter counter1;
     Counter counter2;
     Counter counter3;
-    TotalSum totalSum;
 
      TextView showText;
      TextView showText1;
@@ -34,7 +33,6 @@ public class ProductList extends AppCompatActivity {
         counter1 = new Counter();
         counter2 = new Counter();
         counter3 = new Counter();
-        totalSum = new TotalSum();
         showText = findViewById(R.id.editText8);
         showText1 = findViewById(R.id.editText9);
         showText2 = findViewById(R.id.editText10);
