@@ -46,54 +46,61 @@ public class ProductList extends AppCompatActivity {
 
     }
 
+    private void updateTotal(){
+        int total;
+        int r1 = 3, r2 = 4, m = 9, c = 5;
 
+        showText4 = findViewById(R.id.editText12);
+
+        total = (counter.getcounter()*r1)+(counter1.getcounter()*r2)+(counter2.getcounter()*m)+(counter3.getcounter()*c);
+        showText4.setText(Integer.toString(total));
+    }
 
     public void button7(View view) {
         counter.increment();
         showText.setText(Integer.toString(counter.getcounter()));
+        updateTotal();
     }
 
     public void button8 (View view){
         counter.decrement();
         showText.setText(Integer.toString(counter.getcounter()));
+        updateTotal();
     }
     public void button9(View view) {
         counter1.increment();
         showText1.setText(Integer.toString(counter1.getcounter()));
+        updateTotal();
     }
 
     public void button10 (View view) {
         counter1.decrement();
         showText1.setText(Integer.toString(counter1.getcounter()));
+        updateTotal();
     }
     public void button12(View view) {
         counter2.increment();
         showText2.setText(Integer.toString(counter2.getcounter()));
+        updateTotal();
     }
 
     public void button14 (View view){
         counter2.decrement();
         showText2.setText(Integer.toString(counter2.getcounter()));
+        updateTotal();
     }
     public void button11(View view) {
         counter3.increment();
         showText3.setText(Integer.toString(counter3.getcounter()));
+        updateTotal();
     }
 
     public void button13 (View view) {
         counter3.decrement();
         showText3.setText(Integer.toString(counter3.getcounter()));
+        updateTotal();
     }
 
-
-   public void Sum(View v){
-       EditText showText = (EditText)findViewById(R.id.editText8);
-
-
-
-
-
-   }
 
     public void goProduct(View v) {
         Intent intent = new Intent(this, PaymentMethod.class);
