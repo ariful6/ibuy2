@@ -50,7 +50,6 @@ public class ProductList extends AppCompatActivity {
         int total;
         int r1 = 3, r2 = 4, m = 9, c = 5;
 
-        showText4 = findViewById(R.id.editText12);
 
         total = (counter.getcounter()*r1)+(counter1.getcounter()*r2)+(counter2.getcounter()*m)+(counter3.getcounter()*c);
         showText4.setText(Integer.toString(total));
