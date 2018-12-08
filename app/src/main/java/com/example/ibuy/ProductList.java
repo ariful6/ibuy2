@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class ProductList extends AppCompatActivity {
+
     Button button15;
 
      Counter counter;
@@ -44,6 +45,13 @@ public class ProductList extends AppCompatActivity {
         showText3.setText(Integer.toString(counter.getcounter()));
         showText4.setText(Integer.toString(counter.getcounter()));
 
+
+
+        Intent values = new Intent(ProductList.this, PaymentMethod.class);
+        values.putExtra("USER_NAME" ,"showText4");
+        startActivity(values);
+        finish();
+
     }
 
     private void updateTotal(){
@@ -54,6 +62,7 @@ public class ProductList extends AppCompatActivity {
         total = (counter.getcounter()*r1)+(counter1.getcounter()*r2)+(counter2.getcounter()*m)+(counter3.getcounter()*c);
         showText4.setText(Integer.toString(total));
     }
+
 
     public void button7(View view) {
         counter.increment();
@@ -99,7 +108,6 @@ public class ProductList extends AppCompatActivity {
         showText3.setText(Integer.toString(counter3.getcounter()));
         updateTotal();
     }
-
 
     public void goProduct(View v) {
         Intent intent = new Intent(this, PaymentMethod.class);

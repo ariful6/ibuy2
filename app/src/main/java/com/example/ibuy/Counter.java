@@ -5,6 +5,7 @@ public class Counter {
     private int counter;
 
     public Counter() {
+
         this.counter = counter;
     }
 
@@ -26,6 +27,7 @@ public class Counter {
     }
 
     public int getcounter() {
+
         return this.counter;
     }
 }
