@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class LoginActivity extends AppCompatActivity {
 
     Button button40;
@@ -16,6 +17,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         button40 = (Button) findViewById(R.id.button4);
     }
+
+
 
     public void gonext3(View v) {
         Intent intent = new Intent(this, BranchSelection.class);
