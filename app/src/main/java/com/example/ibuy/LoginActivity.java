@@ -7,21 +7,22 @@ import android.view.View;
 import android.widget.Button;
 
 
+
 public class LoginActivity extends AppCompatActivity {
 
     Button button40;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        button40 = (Button) findViewById(R.id.button4);
     }
 
 
-
-    public void gonext3(View v) {
-        Intent intent = new Intent(this, BranchSelection.class);
-        startActivity(intent);
+        public void gonext3 (View v){
+            Intent intent = new Intent(this, BranchSelection.class);
+            button40 = (Button) findViewById(R.id.button40);
+            startActivity(intent);
+        }
     }
-}

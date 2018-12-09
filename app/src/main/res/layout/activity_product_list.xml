@@ -19,7 +19,8 @@
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button11"
         app:layout_constraintEnd_toStartOf="@+id/button11"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editText9"
@@ -33,7 +34,8 @@
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button9"
         app:layout_constraintEnd_toStartOf="@+id/button9"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText10"
@@ -58,7 +60,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button11"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +74,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button13"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText11"
         app:layout_constraintEnd_toStartOf="@+id/editText11"
@@ -88,7 +90,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button12"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +104,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button14"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText10"
         app:layout_constraintEnd_toEndOf="@+id/button13"
@@ -184,7 +186,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button9"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toEndOf="parent"
@@ -197,7 +199,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button10"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText9"
         app:layout_constraintEnd_toEndOf="@+id/button14"
@@ -315,7 +317,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button7"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -328,7 +330,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button8"
-        android:text="-"
+        android:text="@string/minus"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText8"
         app:layout_constraintEnd_toEndOf="@+id/button10"

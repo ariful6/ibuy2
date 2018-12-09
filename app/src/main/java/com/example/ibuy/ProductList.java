@@ -63,6 +63,13 @@ public class ProductList extends AppCompatActivity {
         });
 
 
+
+
+        Intent values = new Intent(ProductList.this, PaymentMethod.class);
+        values.putExtra("USER_NAME" ,"showText4");
+        startActivity(values);
+        finish();
+
     }
 
     private void updateTotal(){
@@ -119,7 +126,6 @@ public class ProductList extends AppCompatActivity {
         showText3.setText(Double.toString(counter3.getcounter()));
         updateTotal();
     }
-
 
     public void goProduct(View v) {
         Intent intent = new Intent(this, PaymentMethod.class);
