@@ -34,7 +34,7 @@ public class PaymentMethod extends AppCompatActivity {
 
 
     public void gopay(View v) {
-        Intent intent = new Intent(PaymentMethod.this, CardDetails.class);
+        Intent intent = new Intent(this, CardDetails.class);
         startActivity(intent);
     }
 }

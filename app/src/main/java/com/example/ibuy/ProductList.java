@@ -63,13 +63,6 @@ public class ProductList extends AppCompatActivity {
         });
 
 
-
-
-        Intent values = new Intent(ProductList.this, PaymentMethod.class);
-        values.putExtra("USER_NAME" ,"showText4");
-        startActivity(values);
-        finish();
-
     }
 
     private void updateTotal(){
