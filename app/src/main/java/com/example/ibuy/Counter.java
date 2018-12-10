@@ -2,7 +2,7 @@ package com.example.ibuy;
 
 
 public class Counter {
-    private int counter;
+    private double counter;
 
     public Counter() {
         this.counter = counter;
@@ -25,7 +25,7 @@ public class Counter {
         this.counter = 0;
     }
 
-    public int getcounter() {
+    public double getcounter() {
         return this.counter;
     }
 }

@@ -16,7 +16,7 @@ public class BranchSelection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branch_selection);
 
-        button4 = (Button)findViewById(R.id.Blogin);
+        button4 = (Button)findViewById(R.id.button4);
         button5 = (Button)findViewById(R.id.button5);
         button6 = (Button)findViewById(R.id.button6);
     }
