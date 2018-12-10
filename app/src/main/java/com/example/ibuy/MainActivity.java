@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void gonext2 (View v){
+
         Intent intent = new Intent(this,LoginActivity.class);
         startActivity(intent);
     }
