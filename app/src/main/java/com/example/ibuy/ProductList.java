@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 public class ProductList extends AppCompatActivity {
 
@@ -70,8 +71,9 @@ public class ProductList extends AppCompatActivity {
         Double r1 = 2.99, r2 = 2.59, m = 8.99, c = 4.99;
 
 
+
         total = (counter.getcounter()*r1)+(counter1.getcounter()*r2)+(counter2.getcounter()*m)+(counter3.getcounter()*c);
-        showText4.setText(Double.toString(total));
+        showText4.setText(String.format(Locale.CANADA, "%.2f", total));
     }
 
 
