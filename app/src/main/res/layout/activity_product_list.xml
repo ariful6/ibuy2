@@ -488,12 +488,18 @@
         android:id="@+id/textView26"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:text="€"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="429dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView27"
