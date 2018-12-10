@@ -16,11 +16,13 @@
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
         android:ems="10"
+        android:hint="@string/price1"
+        android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button11"
         app:layout_constraintEnd_toStartOf="@+id/button11"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        android:importantForAutofill="no" />
+        tools:targetApi="o" />
 
     <EditText
         android:id="@+id/editText9"
@@ -30,12 +32,14 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="48dp"
         android:layout_marginRight="48dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/price2"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button9"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        android:autofillHints="" />
+        tools:targetApi="o" />
 
     <EditText
         android:id="@+id/editText10"
@@ -45,11 +49,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="48dp"
         android:layout_marginRight="48dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/price3"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button12"
         app:layout_constraintEnd_toStartOf="@+id/button12"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2" tools:targetApi="o" />
 
     <Button
         android:id="@+id/button11"
@@ -60,7 +66,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button11"
-        android:text="+"
+        android:text="@string/plus1"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +80,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button13"
-        android:text="-"
+        android:text="@string/minus1"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText11"
         app:layout_constraintEnd_toStartOf="@+id/editText11"
@@ -90,7 +96,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button12"
-        android:text="+"
+        android:text="@string/plus2"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +110,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button14"
-        android:text="-"
+        android:text="@string/minus2"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText10"
         app:layout_constraintEnd_toEndOf="@+id/button13"
@@ -123,7 +129,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Chicken"
+        android:text="@string/chicken"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
@@ -137,7 +143,7 @@
         android:id="@+id/textView25"
         android:layout_width="67dp"
         android:layout_height="0dp"
-        android:text="  4.99€/kg"
+        android:text="@string/_4_99_kg"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBaseline_toBaselineOf="@+id/button13"
@@ -154,7 +160,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:gravity="center_vertical"
-        android:text="Beef"
+        android:text="@string/beef"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
@@ -167,7 +173,7 @@
         android:id="@+id/textView23"
         android:layout_width="68dp"
         android:layout_height="23dp"
-        android:text="  8.99€/kg"
+        android:text="@string/_8_99_kg"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBaseline_toBaselineOf="@+id/button14"
@@ -186,7 +192,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button9"
-        android:text="+"
+        android:text="@string/plus3"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toEndOf="parent"
@@ -199,7 +205,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button10"
-        android:text="-"
+        android:text="@string/minus3"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText9"
         app:layout_constraintEnd_toEndOf="@+id/button14"
@@ -216,7 +222,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="2.59€/kg"
+        android:text="@string/_2_59_kg"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBaseline_toBaselineOf="@+id/button10"
@@ -239,7 +245,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/basmatirice" />
+        app:srcCompat="@drawable/basmatirice"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView16"
@@ -248,7 +255,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Bashmati Rice"
+        android:text="@string/bashmati_rice"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
@@ -266,7 +273,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="4dp"
-        android:text="Jasmine Rice"
+        android:text="@string/jasmine_rice"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -284,7 +291,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="2.99€/kg"
+        android:text="@string/_2_99_kg"
         android:textAllCaps="true"
         android:textStyle="bold|italic"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
@@ -306,7 +313,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/jasminerice" />
+        app:srcCompat="@drawable/jasminerice"
+        android:contentDescription="@string/todo1" />
 
     <Button
         android:id="@+id/button7"
@@ -317,7 +325,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:onClick="button7"
-        android:text="+"
+        android:text="@string/plus4"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -330,7 +338,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="button8"
-        android:text="-"
+        android:text="@string/minus4"
         android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText8"
         app:layout_constraintEnd_toEndOf="@+id/button10"
@@ -349,7 +357,8 @@
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/beef" />
+        app:srcCompat="@drawable/beef"
+        android:contentDescription="@string/todo2" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -358,7 +367,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/chicken" />
+        app:srcCompat="@drawable/chicken"
+        android:contentDescription="@string/todo3" />
 
     <TextView
         android:id="@+id/textView28"
@@ -368,7 +378,7 @@
         android:layout_marginLeft="176dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Total"
+        android:text="@string/total"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -384,7 +394,7 @@
         android:layout_marginLeft="232dp"
         android:layout_marginTop="36dp"
         android:layout_marginBottom="8dp"
-        android:text="="
+        android:text="@string/equal"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -403,7 +413,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:onClick="goProduct"
-        android:text="Continue"
+        android:text="@string/cont"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -420,10 +430,12 @@
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
         android:ems="10"
+        android:hint="@string/price4"
+        android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/button7"
         app:layout_constraintEnd_toStartOf="@+id/button7"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2" tools:targetApi="o" />
 
     <EditText
         android:id="@+id/editText12"
@@ -434,11 +446,14 @@
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
         android:ems="10"
+        android:hint="@string/price5"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.987"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="o" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -474,7 +489,7 @@
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:text="Add Items"
+        android:text="@string/add_items"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
@@ -492,7 +507,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="€"
+        android:text="@string/euros"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -511,7 +526,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Price"
+        android:text="@string/price"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
@@ -532,7 +547,7 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="KG"
+        android:text="@string/kg1"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -550,7 +565,7 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="KG"
+        android:text="@string/kg2"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -568,7 +583,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="KG"
+        android:text="@string/kg3"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -586,7 +601,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="KG"
+        android:text="@string/kg4"
         android:textAllCaps="true"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -611,7 +626,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="*Free delivery over 50€ shopping"
+        android:text="@string/free_delivery"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.744"
