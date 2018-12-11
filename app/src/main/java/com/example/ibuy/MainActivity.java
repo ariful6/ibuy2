@@ -28,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goBranchSelction (View v){
+        Intent intent = new Intent(this,BranchSelection.class);
+        startActivity(intent);
+    }
+
+
 
 }
