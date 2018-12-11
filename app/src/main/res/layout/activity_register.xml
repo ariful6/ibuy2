@@ -17,7 +17,7 @@
         android:layout_marginRight="9dp"
         android:layout_marginBottom="64dp"
         android:onClick="bregister"
-        android:text="Next"
+        android:text="@string/create_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,11 +108,11 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="@string/name1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Name"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/Epass2"
@@ -121,8 +121,7 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="@string/retype_pass"
         app:layout_constraintBottom_toBottomOf="@+id/Confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Confirm" />
@@ -134,8 +133,7 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="@string/Epass1"
         app:layout_constraintBottom_toBottomOf="@+id/Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Password" />
@@ -147,8 +145,7 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="@string/Eemail"
         app:layout_constraintBottom_toBottomOf="@+id/Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Email" />
@@ -160,8 +157,7 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="@string/Euname"
         app:layout_constraintBottom_toBottomOf="@+id/Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Username" />

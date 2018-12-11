@@ -101,4 +101,6 @@
     <string name="Euname">Enter your user name</string>
     <string name="Epass1">Enter your password</string>
     <string name="Epass2">Confirm your password</string>
+    <string name="retype_pass">Retype your password</string>
+    <string name="create_account">Create account</string>
 </resources>
