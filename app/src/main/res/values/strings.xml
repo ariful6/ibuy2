@@ -95,4 +95,10 @@
     <string name="vantaa">Vantaa</string>
     <string name="mobile_0452326599">Mobile : 0452326599</string>
     <string name="sign_in1">Sign in</string>
+    <string name="username">emptyString</string>
+    <string name="Ename">Enter your name</string>
+    <string name="Eemail">Enter your email</string>
+    <string name="Euname">Enter your user name</string>
+    <string name="Epass1">Enter your password</string>
+    <string name="Epass2">Confirm your password</string>
 </resources>

@@ -10,21 +10,21 @@ import android.widget.Toast;
 
 
 public class Register extends AppCompatActivity {
-    Button Bregister;
+    Button Register;
     DatabaseHelper helper = new DatabaseHelper(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        Bregister= (Button) findViewById(R.id.Bregister);
+        Register= (Button) findViewById(R.id.Register);
     }
 
-    public void onSignUpClick(View view)
+    public void gonext(View view)
     {
-        if (view.getId()== R.id.Bregister)
+        if (view.getId()== R.id.Register)
         {
-            EditText name= (EditText)findViewById(R.id.Euname);
+            EditText name= (EditText)findViewById(R.id.Ename);
             EditText uname= (EditText)findViewById(R.id.Euname);
             EditText email= (EditText)findViewById(R.id.Eemail);
             EditText pass1= (EditText)findViewById(R.id.Epass1);
@@ -54,7 +54,7 @@ public class Register extends AppCompatActivity {
         }
     }
 
-    public void gonext(View v){
+    public void bregister(View v){
         Intent intent = new Intent(this,BranchSelection.class);
         startActivity(intent);
     }

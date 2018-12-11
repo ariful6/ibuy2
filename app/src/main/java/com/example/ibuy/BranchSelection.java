@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class BranchSelection extends AppCompatActivity {
 
@@ -15,8 +16,11 @@ public class BranchSelection extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branch_selection);
+        String username = getIntent().getStringExtra("Username");
 
-        button4 = (Button)findViewById(R.id.button4);
+        TextView tv = (TextView)findViewById(R.id.TVusername);
+
+        button4 = (Button)findViewById(R.id.Blogin);
         button5 = (Button)findViewById(R.id.button5);
         button6 = (Button)findViewById(R.id.button6);
     }

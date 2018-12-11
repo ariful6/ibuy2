@@ -18,7 +18,7 @@
         android:text="Password"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editText7"
+        app:layout_constraintEnd_toStartOf="@+id/Epassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -34,13 +34,13 @@
         android:text="User name"
         android:textSize="24sp"
         app:autoSizeTextType="none"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText5"
-        app:layout_constraintEnd_toStartOf="@+id/editText5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Eusername"
+        app:layout_constraintEnd_toStartOf="@+id/Eusername"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/Eusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -49,13 +49,13 @@
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editText7"
+        app:layout_constraintEnd_toEndOf="@+id/Epassword"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/editText7"
+        app:layout_constraintStart_toStartOf="@+id/Epassword"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Blogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -74,7 +74,7 @@
         app:layout_constraintVertical_bias="0.974" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/Epassword"
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
